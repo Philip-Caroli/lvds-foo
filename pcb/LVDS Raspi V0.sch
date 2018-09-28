@@ -1459,14 +1459,14 @@ DIN A3, landscape with location and doc. field</description>
 <part name="MAP" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
 <part name="RS" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
 <part name="R/F" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
-<part name="R1" library="passive" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
-<part name="R2" library="passive" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
-<part name="R3" library="passive" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
-<part name="R4" library="passive" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
-<part name="R5" library="passive" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
-<part name="R6" library="passive" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
-<part name="R7" library="passive" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
-<part name="R8" library="passive" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
+<part name="R1" library="passive" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="0"/>
+<part name="R2" library="passive" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="0"/>
+<part name="R3" library="passive" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="0"/>
+<part name="R4" library="passive" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="0"/>
+<part name="R5" library="passive" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="0"/>
+<part name="R6" library="passive" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="0"/>
+<part name="R7" library="passive" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="0"/>
+<part name="R8" library="passive" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="0"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -1488,6 +1488,14 @@ DIN A3, landscape with location and doc. field</description>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
+<part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1534,6 +1542,14 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="GND7" gate="1" x="129.54" y="165.1" rot="R180"/>
 <instance part="GND8" gate="1" x="144.78" y="165.1" rot="R180"/>
 <instance part="FRAME1" gate="G$1" x="-99.06" y="-30.48"/>
+<instance part="GND9" gate="1" x="241.3" y="132.08" rot="R90"/>
+<instance part="GND10" gate="1" x="210.82" y="129.54" rot="R270"/>
+<instance part="+3V6" gate="G$1" x="210.82" y="134.62" rot="R90"/>
+<instance part="+3V7" gate="G$1" x="241.3" y="134.62" rot="R270"/>
+<instance part="GND11" gate="1" x="210.82" y="119.38" rot="R270"/>
+<instance part="GND12" gate="1" x="241.3" y="119.38" rot="R90"/>
+<instance part="GND13" gate="1" x="210.82" y="104.14" rot="R270"/>
+<instance part="GND14" gate="1" x="241.3" y="104.14" rot="R90"/>
 </instances>
 <busses>
 <bus name="DPI:B[0..7],DEN,G[0..7],HSYNC,PCLK,R[0..7],VSYNC">
@@ -2068,31 +2084,6 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="FIX-30P-D6" gate="1" pin="4"/>
-<wire x1="233.68" y1="132.08" x2="246.38" y2="132.08" width="0.1524" layer="91"/>
-<label x="236.22" y="132.08" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="FIX-30P-D6" gate="1" pin="5"/>
-<wire x1="218.44" y1="129.54" x2="205.74" y2="129.54" width="0.1524" layer="91"/>
-<label x="208.28" y="129.54" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="FIX-30P-D6" gate="1" pin="6"/>
-<wire x1="233.68" y1="129.54" x2="246.38" y2="129.54" width="0.1524" layer="91"/>
-<label x="236.22" y="129.54" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="FIX-30P-D6" gate="1" pin="13"/>
-<wire x1="218.44" y1="119.38" x2="208.28" y2="119.38" width="0.1524" layer="91"/>
-<label x="208.28" y="119.38" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="FIX-30P-D6" gate="1" pin="14"/>
-<wire x1="233.68" y1="119.38" x2="246.38" y2="119.38" width="0.1524" layer="91"/>
-<label x="236.22" y="119.38" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$2" gate="G$1" pin="GND"/>
 <pinref part="C1" gate="C1" pin="2"/>
 <wire x1="114.3" y1="139.7" x2="114.3" y2="144.78" width="0.1524" layer="91"/>
@@ -2124,6 +2115,42 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="144.78" y1="154.94" x2="144.78" y2="162.56" width="0.1524" layer="91"/>
 <junction x="144.78" y="154.94"/>
 <pinref part="GND8" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="FIX-30P-D6" gate="1" pin="6"/>
+<wire x1="233.68" y1="129.54" x2="236.22" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="129.54" x2="236.22" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="FIX-30P-D6" gate="1" pin="4"/>
+<wire x1="236.22" y1="132.08" x2="233.68" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="132.08" x2="238.76" y2="132.08" width="0.1524" layer="91"/>
+<junction x="236.22" y="132.08"/>
+<pinref part="GND9" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="FIX-30P-D6" gate="1" pin="5"/>
+<wire x1="218.44" y1="129.54" x2="215.9" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="129.54" x2="213.36" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="GND10" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="FIX-30P-D6" gate="1" pin="13"/>
+<wire x1="218.44" y1="119.38" x2="213.36" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="GND11" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="FIX-30P-D6" gate="1" pin="14"/>
+<wire x1="233.68" y1="119.38" x2="238.76" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="GND12" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="FIX-30P-D6" gate="1" pin="25"/>
+<wire x1="218.44" y1="104.14" x2="213.36" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="GND13" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="FIX-30P-D6" gate="1" pin="26"/>
+<wire x1="233.68" y1="104.14" x2="238.76" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="GND14" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -2181,16 +2208,6 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="FIX-30P-D6" gate="1" pin="1"/>
-<wire x1="218.44" y1="134.62" x2="205.74" y2="134.62" width="0.1524" layer="91"/>
-<label x="208.28" y="134.62" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="FIX-30P-D6" gate="1" pin="2"/>
-<wire x1="233.68" y1="134.62" x2="246.38" y2="134.62" width="0.1524" layer="91"/>
-<label x="236.22" y="134.62" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$2" gate="G$1" pin="VCC"/>
 <pinref part="C1" gate="C1" pin="1"/>
 <wire x1="109.22" y1="139.7" x2="109.22" y2="144.78" width="0.1524" layer="91"/>
@@ -2222,6 +2239,22 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="139.7" y1="154.94" x2="139.7" y2="162.56" width="0.1524" layer="91"/>
 <junction x="139.7" y="154.94"/>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="FIX-30P-D6" gate="1" pin="3"/>
+<wire x1="218.44" y1="132.08" x2="215.9" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="132.08" x2="215.9" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="FIX-30P-D6" gate="1" pin="1"/>
+<wire x1="218.44" y1="134.62" x2="215.9" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="134.62" x2="213.36" y2="134.62" width="0.1524" layer="91"/>
+<junction x="215.9" y="134.62"/>
+<pinref part="+3V6" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="FIX-30P-D6" gate="1" pin="2"/>
+<wire x1="233.68" y1="134.62" x2="236.22" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="134.62" x2="238.76" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="+3V7" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="R1_P" class="0">
